@@ -2,7 +2,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 import cv2
 
-#loadu your image here
+#load your image here
 img = cv2.imread('/home/vamsi/test.jpg')
 mask = np.zeros(img.shape[:2],np.uint8)
 
